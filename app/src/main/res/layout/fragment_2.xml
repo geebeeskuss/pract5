@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment2"
+    android:background="@color/sakura">
+
+    <Button
+        android:id="@+id/nav_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/cherry"
+        android:text="Перейти на третий фрагмент"/>
+    <TextView
+        android:layout_below="@id/nav_button2"
+        android:id="@+id/data_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_below="@id/data_text_view"
+        android:id="@+id/image"
+        android:src="@drawable/sakura2"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_marginTop="30dp"
+        android:id="@+id/text2"
+        android:layout_centerHorizontal="true"
+        android:text="2"
+        android:textColor="@color/cherry"
+        android:textSize="80sp" />
+
+
+</RelativeLayout>

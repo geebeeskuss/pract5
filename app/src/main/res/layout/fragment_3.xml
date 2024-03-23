@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment3"
+    android:background="@color/sakura">
+
+    <Button
+        android:id="@+id/nav_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/cherry"
+        android:text="Перейти на первый фрагмент"/>
+    <ImageView
+        android:layout_below="@id/nav_button3"
+        android:id="@+id/image3"
+        android:src="@drawable/sakura3"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image3"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="3"
+        android:textColor="@color/cherry"
+        android:textSize="80sp" />
+
+
+</RelativeLayout>

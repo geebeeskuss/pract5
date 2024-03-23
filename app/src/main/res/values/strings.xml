@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">meow!</string>
+    <string name="button_text">meow</string>
+    <string name="text_lin">Do you love Sakura Haruno?</string>
+    <string name="edit_lin">Yes or No</string>
+    <string name="text_con">Aaaww i love you too!</string>
+    <string name="edit_con">thank you...</string>
+    <string name="edit_rel">sorry...</string>
+</resources>
